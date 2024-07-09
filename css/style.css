@@ -1,27 +1,106 @@
-body{
-    background-color: rgb(119, 121, 101);
+body {
+    background-color: #6F7053; /* Darker shade of the original background */
+    font-family: Arial, sans-serif;
+    color: #fff;
 }
 
-.container{
-    display:flex ;
+.container {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 5px;
+    padding: 20px;
     font-size: 20px;
-}
-h2{
-    text-align: center;
-    font-size: 37px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-.btn{
-    color: black;
-    
-    
+h2 {
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 20px;
+    color: #f0f0f0;
 }
-button{
-   background-color: rgb(240, 150, 71);
+
+label {
+    margin-top: 10px;
+    color: #ddd;
 }
+
+input {
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    width: calc(50% - 22px);
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f09647;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dc8232;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#bmi-scale {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.scale-section {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: #333;
+}
+
+#underweight {
+    background-color: #B0E0E6; /* Lighter shade of light blue */
+}
+
+#normal {
+    background-color: #98FB98; /* Lighter shade of pale green */
+}
+
+#overweight {
+    background-color: #FFD700; /* Gold */
+}
+
+#obese {
+    background-color: #FF6347; /* Tomato */
+}
+
+.highlight {
+    border: 5px solid white;
+}
+
+
+
    
